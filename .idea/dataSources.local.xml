@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - DREAMHOST" uuid="9bc8f418-1296-4f82-92a7-b0497573fc46">
+      <secret-storage>master_key</secret-storage>
+      <user-name>gc100022849</user-name>
+      <schema-pattern>gc100022849.*</schema-pattern>
+      <default-schemas>gc100022849.*</default-schemas>
+    </data-source>
+  </component>
+</project>
