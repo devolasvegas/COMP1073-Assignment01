@@ -9,27 +9,16 @@
     "use strict";
     console.log("App Started . . .");
 
-    /*
-    // named function way
-    function replaceFirstParagraph(){
-        console.log("Inside replaceFirstParagraph function.");
-        var firstParagraph;
-        firstParagraph = document.getElementById("firstParagraph");
-        firstParagraph.innerHTML = "My New Paragraph Data";
+    // named function
+    function insertBio(){
+        console.log("Inside insertBio function.");
+        var bioParagraph;
+        bioParagraph = document.getElementById("bio");
+        bioParagraph.innerHTML = "My New Paragraph Data";
     }
-     */
 
-
-
-    //declare an anon. function with named alias
-    var replaceFirstParagraph = function(){
-        console.log("Inside replaceFirstParagraph anonymous function.");
-        var firstParagraph;
-        firstParagraph = document.getElementById("firstParagraph");
-        firstParagraph.innerHTML = "Newer content.";
-    }
 
     // Call replaceFirstParagraph function defined above.
-    replaceFirstParagraph();
+    insertBio();
 
 })();
