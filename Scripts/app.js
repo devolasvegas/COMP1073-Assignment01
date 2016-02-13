@@ -1,5 +1,6 @@
 // Custom JS scripts
-
+/*  app.js  created by Devon Daviau for
+ devondaviau-comp1073-assignment01.azurewebsites.net */
 (function(){
     "use strict";
     console.log("App Started . . .");
