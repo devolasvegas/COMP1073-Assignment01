@@ -1,0 +1,9 @@
+/* Added by D. Daviau */
+.btn-border {
+    border: 1px solid black;
+}
+
+#svg-logo {
+    display: inline-block;
+    height: 1.75em;
+}
