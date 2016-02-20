@@ -5,6 +5,23 @@
     "use strict";
     console.log("App Started . . .");
 
+    //These variables store form data
+    var firstName = document.getElementById("first_name");
+    var lastName = document.getElementById("last_name");
+    var email = document.getElementById("email");
+    var message = document.getElementById("message");
+    // submitButton variable to target form submit button
+    var submitButton = document.getElementById("submitButton");
+
+    /* This function takes the values from the contact form and
+     output them to the console when the submit button is clicked */
+    submitButton.addEventListener("click", function(){
+        console.log("First Name: " + firstName.value);
+        console.log("Last Name: " + lastName.value);
+        console.log("Email: " + email.value);
+        console.log("Message: " + message.value);
+    });
+
     // Function for inserting bio information.
     function insertBio(){
         console.log("Inside insertBio function.");
